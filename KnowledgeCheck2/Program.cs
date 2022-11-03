@@ -31,13 +31,12 @@ class Program
             recordList.Add(monitor);
         }
 
-
         // Print out the list of records using Console.WriteLine()
-        
-        
-        foreach(var monitor in recordList)
+
+        foreach ( var record in recordList)
         {
-            Console.WriteLine(monitor);
+            Console.WriteLine(record.brand);
+            Console.WriteLine(record.resolution);
         }
     }
 }
